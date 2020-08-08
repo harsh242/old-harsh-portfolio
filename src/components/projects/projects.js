@@ -1,7 +1,8 @@
 import React from 'react';
 import feelgood from "../../assets/img/projects/feelgood.jpg";
-import taxibazaar from "../../assets/img/projects/taxibazaar.jpg"
-import utkansh from "../../assets/img/projects/utkansh.jpg"
+import taxibazaar from "../../assets/img/projects/taxibazaar.jpg";
+import krishihub from "../../assets/img/projects/krishihub.jpg";
+import utkansh from "../../assets/img/projects/utkansh.jpg";
 
 export default class Projects extends React.Component {
     constructor() {
@@ -25,6 +26,14 @@ export default class Projects extends React.Component {
                 description:"Re-Designed the Website and Vendor app of Taxi Bazaar- An Outstation Taxi Provider with a reach of more than 400 cities across India.",
                 link: "/comingsoon",
                 button:"Coming Soon"
+              },
+              {
+                category: "UI/UX Design and Front End Development",
+                name: "Krishi Hub | SIH Internal Hackathon Project",
+                image: krishihub,
+                description:"A Digital Solution for bringing together farmers and buyers at a common E-commerce MarketPlace. We were in the top 5 teams who got selected from the Institute. ",
+                link: "https://drive.google.com/file/d/1ADhDXTdp2VZzbSTqzYd-_u0F1BwBW5UE/view?usp=sharing",
+                button:"Read Project"
               },
             {
                 category: "UI Design and Front-end Development",
@@ -56,7 +65,7 @@ export default class Projects extends React.Component {
          
         </div>
         <div class="flex">
-          <button class="flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"><a href={project.link} rel="noopener noreferrer" target="_blank" >{project.button}</a></button>
+        <a href={project.link} rel="noopener noreferrer" target="_blank" ><button class="flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">{project.button}</button></a>
         </div>
       </div>
     </div>
