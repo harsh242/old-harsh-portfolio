@@ -60,7 +60,7 @@ export default class Projects extends React.Component {
         
     
         </div>
-        <p class="leading-relaxed">{project.description}</p>
+        <p class="leading-relaxed bg-indigo-100 border-l-4 border-indigo-500 text-indigo-700 p-4">{project.description}</p>
         <div class="flex mt-6 items-center pb-2 border-b-2 border-gray-200 mb-5">
          
         </div>
