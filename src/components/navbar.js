@@ -2,6 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom';
 
 function navbar() {
+
     return (
         <div>
             <header class="text-gray-700 body-font fixed-top">
@@ -12,8 +13,9 @@ function navbar() {
       </svg>
       <span class="ml-3 text-2xl">Harsh Badhai</span>
     </NavLink>
+    
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a href="#work" class="mr-5 text-xl hover:text-gray-900">Work</a>
+      <a  class="mr-5 text-xl hover:text-gray-900"  href="#responsive-header">Work</a>
       <a class="mr-5 text-xl hover:text-gray-900" href="#about">About</a>
       <a class="mr-5 text-xl hover:text-gray-900" href="#contact">Contact</a>
     </nav>
