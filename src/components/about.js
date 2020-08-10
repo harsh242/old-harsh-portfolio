@@ -13,7 +13,7 @@ function About() {
         <p class=" leading-relaxed text-base mt-5" >A Visual Artist and Designer 🤹‍♂️ by Passion and Engineer👨‍🎓 by Degree, I love to show my empathy towards users and audience by variety of things (Product Design 📱, Short Films 🎥, Animations 🎨) for a start. <br/> <br/>Currently a Pre-Final Year Student of NIT Jalandhar, I started designing back in school with designing school magazines and PPT's in Corel Draw and later in college I started making short films and videos for fun which taught me how important it is to keep the audience hooked. <br/> <br/>Later in my 2nd Semester I discovered Web Development which led me to UI/UX Design and ever since then I have not stopped designing and exploring.</p>
 
       </div>
-      <img class="lg:w-1/2 w-full" src={harsh} />
+      <img class="lg:w-1/2 w-full rounded" src={harsh} />
     </div>
 
   </div>

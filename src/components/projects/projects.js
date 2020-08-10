@@ -25,7 +25,8 @@ export default class Projects extends React.Component {
                 image: taxibazaar,
                 description:"Re-Designed the Website and Vendor app of Taxi Bazaar- An Outstation Taxi Provider with a reach of more than 400 cities across India.",
                 link: "/comingsoon",
-                button:"Coming Soon"
+                button:"Coming Soon",
+                classes:"opacity-50 cursor-not-allowed"
               },
               {
                 category: "UI/UX Design and Front End Development",
@@ -65,7 +66,7 @@ export default class Projects extends React.Component {
          
         </div>
         <div class="flex">
-        <a href={project.link} rel="noopener noreferrer" target="_blank" ><button class="flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">{project.button}</button></a>
+        <a href={project.link} rel="noopener noreferrer" target="_blank" ><button class={`flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded ${ project.classes }`} >{project.button}</button></a>
         </div>
       </div>
     </div>
