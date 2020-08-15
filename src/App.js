@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './assets/css/styles.css';
 
 import Navbar from './components/navbar';
-import Hero from './components/hero';
-import Projects from './components/projects/projects';
 import Footer from './components/footer';
+import Home from './components/home';
 import Contact from './components/contact';
-import About from './components/about';
+import Pack from './components/projects/pack';
+
 
 
 
@@ -19,9 +19,8 @@ class App extends React.Component {
     <Router>
     <div className="App">
      <Navbar/>
-     <Hero/>
-     <Projects/>
-     <About/>
+     <Route exact path="/" component={Home} />
+     <Route exact path="/pack" component={Pack} />
      <Contact/>
      <Footer/>
     </div>

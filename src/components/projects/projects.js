@@ -3,6 +3,7 @@ import feelgood from "../../assets/img/projects/feelgood.jpg";
 import taxibazaar from "../../assets/img/projects/taxibazaar.jpg";
 import krishihub from "../../assets/img/projects/krishihub.jpg";
 import utkansh from "../../assets/img/projects/utkansh.jpg";
+import pack from "../../assets/img/projects/pack.jpg";
 
 export default class Projects extends React.Component {
     constructor() {
@@ -11,6 +12,14 @@ export default class Projects extends React.Component {
           show: false,
           showme: true,
           projects: [
+            {
+              category: "UI/UX Design",
+              name: "Pack | D'source Corona Design Challenge",
+              image: pack,
+              description:"A Solution designed to minimize the crowd at small shops/stores and focuses on a safer and digital way to buy ration and daily goods.",
+              link: "/pack",
+              button:"Read Case Study"
+            },
             {
               category: "UI/UX Design",
               name: "Feel Good : Let's get through this together",
@@ -24,7 +33,7 @@ export default class Projects extends React.Component {
                 name: "Taxi Bazaar | Coming Soon",
                 image: taxibazaar,
                 description:"Re-Designed the Website and Vendor app of Taxi Bazaar- An Outstation Taxi Provider with a reach of more than 400 cities across India.",
-                link: "/comingsoon",
+                link: "/",
                 button:"Coming Soon",
                 classes:"opacity-50 cursor-not-allowed"
               },

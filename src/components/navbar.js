@@ -19,9 +19,9 @@ function navbar() {
     </NavLink>
     
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a  class="mr-5 text-xl hover:text-indigo-600"  href="#work">Work</a>
-      <a class="mr-5 text-xl hover:text-indigo-600" href="#about">About</a>
-      <a class="mr-5 text-xl hover:text-indigo-600" href="#contact">Contact</a>
+      <a  class="mr-5 text-xl hover:text-indigo-600"  href="/#work">Work</a>
+      <a class="mr-5 text-xl hover:text-indigo-600" href="/#about">About</a>
+      <a class="mr-5 text-xl hover:text-indigo-600" href="/#contact">Contact</a>
     </nav>
     <button class="inline-flex items-center bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0 text-xl"> <a href="https://drive.google.com/file/d/1uTIPwsX5I0q9_DvJEU2nM1eFY_2xzIoi/view?usp=sharing" rel="noopener noreferrer" target="_blank" >Resume
       </a>
