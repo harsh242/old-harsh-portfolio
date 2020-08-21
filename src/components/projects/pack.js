@@ -60,7 +60,7 @@ class Pack extends React.Component {
                           <h1 className="title-font text-2xl font-medium text-gray-900 mb-3">
                             Project Timeline
                           </h1>
-                          <p className="leading-relaxed mb-5">Aug 10 - Aug 20 2020 (5 Days)</p>
+                          <p className="leading-relaxed mb-5">Aug 10 - Aug 15 2020 (5 Days)</p>
                         </div>
                       </div>
                     </div>
