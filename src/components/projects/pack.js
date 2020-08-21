@@ -71,7 +71,7 @@ class Pack extends React.Component {
                             Teammate
                           </h1>
                           <p className="leading-relaxed mb-5">
-                          <span className="text-purple-500 underline font-medium" ><a href="https://manindersidhu.co.in/" rel="noopener noreferrer" target="_blank">Maninderjeet Singh Sidhu</a></span>
+                          <span className="text-indigo-500 underline font-medium" ><a href="https://manindersidhu.co.in/" rel="noopener noreferrer" target="_blank">Maninderjeet Singh Sidhu</a></span>
                           </p>
                         </div>
                       </div>
