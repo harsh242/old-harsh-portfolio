@@ -60,7 +60,9 @@ class Pack extends React.Component {
                           <h1 className="title-font text-2xl font-medium text-gray-900 mb-3">
                             Project Timeline
                           </h1>
-                          <p className="leading-relaxed mb-5">Aug 10 - Aug 15 2020 (5 Days)</p>
+                          <p className="leading-relaxed mb-5">
+                            Aug 10 - Aug 15 2020 (5 Days)
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -71,7 +73,15 @@ class Pack extends React.Component {
                             Teammate
                           </h1>
                           <p className="leading-relaxed mb-5">
-                          <span className="text-indigo-500 underline font-medium" ><a href="https://manindersidhu.co.in/" rel="noopener noreferrer" target="_blank">Maninderjeet Singh Sidhu</a></span>
+                            <span className="text-indigo-500 underline font-medium">
+                              <a
+                                href="https://manindersidhu.co.in/"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                Maninderjeet Singh Sidhu
+                              </a>
+                            </span>
                           </p>
                         </div>
                       </div>
@@ -106,8 +116,8 @@ class Pack extends React.Component {
                         shops/stores. It facilitates the customers to send the
                         list of items to the shopkeeper and schedule their time
                         for pickup or get it delivered to their home if
-                        available. It also has a features which can help one to
-                        maintain social distancing.
+                        available. It also has an AR feature which can help one
+                        to maintain social distancing.
                       </p>
                     </div>
 
@@ -222,10 +232,9 @@ class Pack extends React.Component {
                       <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
                     <p className="lg:w-1/2 w-full leading-relaxed text-lg">
-                      After understanding and collecting data about our
-                      customers, we made story boards to understand the user
-                      flow and to explore how our features would work in the
-                      app.
+                      After understanding the problem and the customers, we made
+                      story boards to understand the user flow and to explore
+                      how our features would work in the app.
                     </p>
                     <img
                       alt="pack 4"
@@ -286,57 +295,57 @@ class Pack extends React.Component {
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p2}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p3}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p4}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p5}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p6}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p7}
                     />
-                       <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p8}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p9}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p10}
                     />
-                       <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p11}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p12}
                     />
-                     <img
+                    <img
                       alt="pack 4"
                       className=" w-full lg:h-auto  object-scale-down object-center rounded"
                       src={p13}
@@ -350,7 +359,15 @@ class Pack extends React.Component {
                       <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
                     <p className="lg:w-1/2 w-full leading-relaxed text-lg">
-                    <span className="text-indigo-500 underline font-medium" ><a href="https://www.figma.com/proto/ARzbs0PJWHSHjfBkzfztm5/IIT-B-Design-Contest?node-id=59%3A3&viewport=492%2C232%2C0.12451719492673874&scaling=scale-down" rel="noopener noreferrer" target="_blank">Click here to open the prototype 📱</a></span> 
+                      <span className="text-indigo-500 underline font-medium">
+                        <a
+                          href="https://www.figma.com/proto/ARzbs0PJWHSHjfBkzfztm5/IIT-B-Design-Contest?node-id=59%3A3&viewport=492%2C232%2C0.12451719492673874&scaling=scale-down"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          Click here to open the prototype 📱
+                        </a>
+                      </span>
                     </p>
                   </div>
 
@@ -362,8 +379,32 @@ class Pack extends React.Component {
                       <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
                     <p className="lg:w-1/2 w-full leading-relaxed text-lg">
-                    - Since we completed everything in just 5 days, the design is not optimal it could have been improved in various aspects.
-<br/> <br/>- Having a good teammate with continous synchronisation can turn out to be really good. We did the project remotely while <span className="text-indigo-500 underline font-medium" ><a href="https://manindersidhu.co.in/" rel="noopener noreferrer" target="_blank">Maninder</a></span> was at Rajasthan and <span className="text-indigo-500 underline font-medium" ><a href="https://harshbadhai.me/" rel="noopener noreferrer" target="_blank">me</a></span> in Chhattisgarh at home due to COVID.
+                      - Since we completed everything in just 5 days, the design
+                      is not optimal it could have been improved in various
+                      aspects.
+                      <br /> <br />- Having a good teammate with continous
+                      synchronisation can turn out to be really good. We did the
+                      project remotely while{" "}
+                      <span className="text-indigo-500 underline font-medium">
+                        <a
+                          href="https://manindersidhu.co.in/"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          Maninder
+                        </a>
+                      </span>{" "}
+                      was at Rajasthan and{" "}
+                      <span className="text-indigo-500 underline font-medium">
+                        <a
+                          href="https://harshbadhai.me/"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          me
+                        </a>
+                      </span>{" "}
+                      in Chhattisgarh at home due to COVID.
                     </p>
                   </div>
                 </div>
