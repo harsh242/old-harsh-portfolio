@@ -170,7 +170,8 @@ class Pack extends React.Component {
                     </div>
                     <p className="lg:w-1/2 w-full leading-relaxed text-lg">
                       Small shops/stores <br />
-                      - Consumers <br />- Shopkeepers
+                      - Consumers (Smartphone and Keypad Users) <br />-
+                      Shopkeepers
                     </p>
                   </div>
                   <h1 className="text-gray-900 text-4xl title-font font-medium my-5">
@@ -233,8 +234,9 @@ class Pack extends React.Component {
                     </div>
                     <p className="lg:w-1/2 w-full leading-relaxed text-lg">
                       After understanding the problem and the customers, we made
-                      story boards to understand the user flow and to explore
-                      how our features would work in the app.
+                      story boards to understand the journey of a user to buy
+                      groceries and how users would interact with this problem
+                      in real life.
                     </p>
                     <img
                       alt="pack 4"
@@ -253,9 +255,11 @@ class Pack extends React.Component {
                     />
                     <p className="lg:w-full font-medium w-full leading-relaxed text-lg pt-24">
                       {" "}
-                      After finalising the flow we went ahead and sketched some
-                      of the ideas and then designed the the high fidelity
-                      screens.
+                      The story board gave us the insights of journey of a user
+                      to buy groceries. And so, after that we created a user
+                      flow to accomplish tasks inside of the app. After
+                      finalising the flow we went ahead and sketched some of the
+                      ideas and then designed the the high fidelity screens.
                     </p>
                   </div>
                   <div className="visual mt-5 mb-5">
