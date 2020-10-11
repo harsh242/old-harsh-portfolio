@@ -1,6 +1,7 @@
 import React from "react";
 import Next from "../projects/next";
 import pack from "../../assets/img/pack/hero.jpg";
+import idc from "../../assets/img/pack/idc.jpeg";
 
 import pack03 from "../../assets/img/pack/pack (3).jpg";
 import pack04 from "../../assets/img/pack/pack (4).jpg";
@@ -100,7 +101,20 @@ class Pack extends React.Component {
                       </div>
                       <p className="lg:w-1/2 w-full leading-relaxed text-lg">
                         This is a project I did for D'source Corona Design
-                        Challenge hosted by IDC IIT Bombay.
+                        Challenge hosted by <strong>IDC IIT Bombay</strong> and
+                        we were one of the <strong>winners</strong> in
+                        Interaction Design Domain.
+                        <br />
+                        <br />
+                        <span className="text-indigo-500 underline font-medium">
+                          <a
+                            href="https://dsourcechallenge.org/results.html#dcdc9r3"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            Link to the Challenge Results 
+                          </a>
+                        </span>
                       </p>
                     </div>
 
@@ -408,7 +422,9 @@ class Pack extends React.Component {
                           me
                         </a>
                       </span>{" "}
-                      in Chhattisgarh at home due to COVID.
+                      in Chhattisgarh at home due to COVID and we were able to
+                      complete this project as well as were announced as one of
+                      the winners of the Challenge🚀.
                     </p>
                   </div>
                 </div>
