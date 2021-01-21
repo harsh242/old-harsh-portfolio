@@ -112,7 +112,7 @@ class Pack extends React.Component {
                             rel="noopener noreferrer"
                             target="_blank"
                           >
-                            Link to the Challenge Results 
+                            Link to the Challenge Results
                           </a>
                         </span>
                       </p>
