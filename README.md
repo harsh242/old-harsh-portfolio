@@ -3,6 +3,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Live at [harshbadhai.me](https://harshbadhai.me).
 ### Tech Stack
 * React JS 
-* Firebase 
-* Formik 
-* AOS Library
+* Firebase for hosting
+* Tailwind
