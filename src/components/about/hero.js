@@ -1,5 +1,5 @@
 import React from "react";
-import harsh from "../assets/img/meandme.jpg";
+import harsh from "../../assets/img/meandme.jpg";
 
 function About() {
   return (

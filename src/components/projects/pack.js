@@ -1,7 +1,7 @@
 import React from "react";
-import Next from "../projects/next";
+import feelgood from "../../assets/img/projects/feelgood.jpg";
+
 import pack from "../../assets/img/pack/hero.jpg";
-import idc from "../../assets/img/pack/idc.jpeg";
 
 import pack03 from "../../assets/img/pack/pack (3).jpg";
 import pack04 from "../../assets/img/pack/pack (4).jpg";
@@ -158,6 +158,7 @@ class Pack extends React.Component {
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
+                title="Pack Promo Video"
               ></iframe>
 
               <section className="text-gray-700 body-font">
@@ -430,10 +431,17 @@ class Pack extends React.Component {
                 </div>
               </section>
 
-              <h1 className="text-gray-900 text-5xl title-font font-medium mt-5 mt-5">
+              {/* <h1 className="text-gray-900 text-5xl title-font font-medium mt-5">
                 Next
               </h1>
-              <Next />
+              <Card
+                category="UI/UX Design"
+                name="Feel Good : Let's get through this together"
+                image={feelgood}
+                description="A Solution designed to help Millennials & Gen-Z to talk their feelings out and use features that can help them improve their mental health."
+                url="https://uxplanet.org/feelgood-ui-ux-case-study-4b10e5cc77f9"
+                button="Read Case Study"
+              /> */}
             </div>
           </div>
         </section>

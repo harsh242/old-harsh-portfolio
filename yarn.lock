@@ -9456,6 +9456,11 @@ react-router-dom@^5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
+react-router-scroll-top@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/react-router-scroll-top/-/react-router-scroll-top-0.2.1.tgz#7fc28b9636d64b2d42a24b5b64eb4bd4219a672b"
+  integrity sha512-rseL7IqA9wt1R/QIGbTFsO5O1bIXmd0f+W208rKsAYjedSrNCsu3Q8yLJZtBmdESakfAZJRGw5A6FJwRkbvQ+A==
+
 react-router@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"
@@ -9541,6 +9546,11 @@ react-tailwindcss@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-tailwindcss/-/react-tailwindcss-1.0.0.tgz#f18e930de04fd701322c9eb1a3ac9003f76343e5"
   integrity sha512-/oPmkTJOXZ0FulbeygWE9EpHhmSDujjqpCFqm6OwkSaBZryqrOL+uytugwD7UH79kNMoGzVg6lS4G++j2rE39Q==
+
+react-tilt@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-tilt/-/react-tilt-0.1.4.tgz#0ac1f33674a3fff6c617cf411002d7ecdd2ebcb1"
+  integrity sha512-bVeRumg+RIn6QN8S92UmubGqX/BG6/QeQISBeAcrS/70dpo/jVj+sjikIawDl5wTuPdubFH8zH0EMulWIctsnw==
 
 react@^16.13.1:
   version "16.13.1"

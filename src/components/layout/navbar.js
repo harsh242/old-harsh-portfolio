@@ -33,21 +33,39 @@ function navbar() {
               />
             </svg>
 
-            <span className="ml-3 text-2xl">Harsh Badhai</span>
+            <span className="ml-3 text-2xl ">Harsh Badhai</span>
           </NavLink>
 
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 text-xl hover:text-indigo-600" href="/#work">
-              Work
-            </a>
-            <a className="mr-5 text-xl hover:text-indigo-600" href="/#about">
-              About
-            </a>
-            <a className="mr-5 text-xl hover:text-indigo-600" href="/#contact">
-              Contact
-            </a>
+            <div className="mr-5 text-xl hover:text-indigo-600 ">
+              {" "}
+              <NavLink
+                to="/design"
+                activeClassName="pb-2 border-b-4 text-indigo-600 border-indigo-600"
+              >
+                Design{" "}
+              </NavLink>
+            </div>
+
+            <div className="mr-5 text-xl hover:text-indigo-600 ">
+              <NavLink
+                to="/side-projects"
+                activeClassName=" pb-2 border-b-4 text-indigo-600 border-indigo-600"
+              >
+                Side Projects
+              </NavLink>
+            </div>
+
+            <div className="mr-5 text-xl hover:text-indigo-600 ">
+              <NavLink
+                to="/about"
+                activeClassName="pb-2 border-b-4 text-indigo-600 border-indigo-600"
+              >
+                About Me{" "}
+              </NavLink>
+            </div>
           </nav>
-          <button className="inline-flex items-center bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0 text-xl">
+          <button className="inline-flex items-center bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded mt-4 md:mt-0 text-xl">
             {" "}
             <a
               href="https://drive.google.com/file/d/1uTIPwsX5I0q9_DvJEU2nM1eFY_2xzIoi/view?usp=sharing"
