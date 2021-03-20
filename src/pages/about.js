@@ -5,7 +5,7 @@ import AboutHero from "../components/about/hero";
 
 function About() {
   return (
-    <div>
+    <div className="fade-in">
     <Helmet>
         <meta charSet="utf-8" />
         <title>About Me | Harsh Badhai</title>

@@ -8,7 +8,7 @@ import pack from "../assets/img/projects/pack.jpg";
 
 function Design() {
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-700 body-font fade-in">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Design Case Studies by Harsh</title>

@@ -8,7 +8,7 @@ function Footer() {
         <div className="container px-5 py-8 mx-auto flex items-center justify-center flex-col">
           <NavLink
             to="/"
-            className="flex font-medium items-center justify-center text-gray-900"
+            className="flex font-medium items-center justify-center text-gray-900 animate-bounce "
           >
             <svg
               width="1024"

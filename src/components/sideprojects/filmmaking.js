@@ -1,26 +1,43 @@
 import React from "react";
-import krishihub from "../../assets/img/projects/krishihub.jpg";
-import utkansh from "../../assets/img/projects/utkansh.jpg";
+import Techniti from "../../assets/img/films/Techniti.jpg";
+import Auli from "../../assets/img/films/Auli.jpg";
+import ToshValley from "../../assets/img/films/Tosh_Valley.jpg";
+import Richa from "../../assets/img/films/Richa.jpg";
+import Utkansh from "../../assets/img/films/Utkansh.jpg";
 import Card from "../projects/card";
 
 function Filmmaking() {
   return (
-    <div className="grid md:grid-cols-2  gap-16">
+    <div className="grid md:grid-cols-2 gap-16 fade-in">
       <Card
-        category="UI/UX Design and Front End Development"
-        name="Krishi Hub | SIH Internal Hackathon Project"
-        image={krishihub}
-        description="A Digital Solution for bringing together farmers and buyers at a common E-commerce MarketPlace. We were in the top 5 teams who got selected from the Institute. "
-        link="https://drive.google.com/file/d/1ADhDXTdp2VZzbSTqzYd-_u0F1BwBW5UE/view?usp=sharing"
-        button="Read Project"
+        name="Techniti Aftermovie |Techno-Managerial Fest | NIT Jalandhar"
+        image={Techniti}
+        url="https://www.youtube.com/watch?v=dFC98MLN4Rc&ab_channel=TheHODOPHILES"
+        button="Watch"
       />
       <Card
-        category="UI Design and Front-end Development"
-        name="Utkansh 2020 Website "
-        image={utkansh}
-        description="Designed and Developed the website of Utkansh-Annual Cultural Fest of NIT Jalandhar."
-        link="https://utkansh.cultnitj.co.in/"
-        button="Visit Website"
+        name="Unexplored Cinematic Auli"
+        image={Auli}
+        url="https://www.youtube.com/watch?v=eOfwFyae8cw&t=841s&ab_channel=TheHODOPHILES"
+        button="Watch"
+      />
+      <Card
+        name="Tosh Valley"
+        image={ToshValley}
+        url="https://www.youtube.com/watch?v=8g0n9NVZp8o&ab_channel=TheHODOPHILES"
+        button="Watch"
+      />
+      <Card
+        name="SpeakerBox x Richa"
+        image={Richa}
+        url="https://www.instagram.com/p/B11DHiRhd44/"
+        button="Watch"
+      />
+      <Card
+        name="UTKANSH '19 || Official Aftermovie || NIT Jalandhar"
+        image={Utkansh}
+        url="https://www.youtube.com/watch?v=fDOFBJrPecc&ab_channel=TheHODOPHILES"
+        button="Watch"
       />
     </div>
   );

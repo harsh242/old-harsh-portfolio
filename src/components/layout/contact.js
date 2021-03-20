@@ -3,22 +3,22 @@ import React from "react";
 const Social = ({ name, icon, url, color, text }) => {
   return (
     <a
-      class={`p-2 lg:w-1/3 md:w-1/2 w-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105`}
+      className={`p-2 lg:w-1/3 md:w-1/2 w-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105`}
       href={url}
       rel="noopener noreferrer"
       target="_blank"
     >
       <div
-        class={` h-full flex items-center border-gray-300 border p-4 rounded-lg text-${text} bg-${color}`}
+        className={` h-full flex items-center border-gray-300 border p-4 rounded-lg text-${text} bg-${color}`}
       >
         <div
-          class={`flex-shrink-0 w-16 h-16 bg-indigo-500 rounded-full inline-flex items-center justify-center mr-4 `}
+          className={`flex-shrink-0 w-16 h-16 bg-indigo-500 rounded-full inline-flex items-center justify-center mr-4 `}
         >
           {icon}
         </div>
 
-        <div class="flex-grow">
-          <h2 class="title-font font-medium ">{name}</h2>
+        <div className="flex-grow">
+          <h2 className="title-font font-medium ">{name}</h2>
         </div>
       </div>
     </a>

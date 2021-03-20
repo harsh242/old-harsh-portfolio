@@ -1,26 +1,36 @@
 import React from "react";
-import krishihub from "../../assets/img/projects/krishihub.jpg";
-import utkansh from "../../assets/img/projects/utkansh.jpg";
+import Dip from "../../assets/img/animation/Dip.jpg";
+import Heer from "../../assets/img/animation/Heer.jpg";
+import Jalebi from "../../assets/img/animation/Jalebi_Baby.jpg";
+import TumJab from "../../assets/img/animation/Tum_Jab_Pass.jpg";
 import Card from "../projects/card";
 
 function Animation() {
   return (
-    <div className="grid md:grid-cols-2  gap-16">
+    <div className="grid md:grid-cols-2 gap-16 fade-in">
       <Card
-        category="UI Design and Front-end Development"
-        name="Utkansh 2020 Website "
-        image={utkansh}
-        description="Designed and Developed the website of Utkansh-Annual Cultural Fest of NIT Jalandhar."
-        link="https://utkansh.cultnitj.co.in/"
-        button="Visit Website"
+        name="Dip x Buttsss"
+        image={Dip}
+        url="https://www.instagram.com/p/CDD8uEZpWEq/"
+        button="Watch Animation"
       />
       <Card
-        category="UI/UX Design and Front End Development"
-        name="Krishi Hub | SIH Internal Hackathon Project"
-        image={krishihub}
-        description="A Digital Solution for bringing together farmers and buyers at a common E-commerce MarketPlace. We were in the top 5 teams who got selected from the Institute. "
-        link="https://drive.google.com/file/d/1ADhDXTdp2VZzbSTqzYd-_u0F1BwBW5UE/view?usp=sharing"
-        button="Read Project"
+        name="Heer aur Ranjha"
+        image={Heer}
+        url="https://www.instagram.com/p/CDovdOsgnb1/"
+        button="Watch Animation"
+      />
+      <Card
+        name="Jalebi Baby"
+        image={Jalebi}
+        url="https://www.instagram.com/p/CDOrk5WpS6s/"
+        button="Watch Animation"
+      />
+      <Card
+        name="Tum Jab Pass"
+        image={TumJab}
+        url="https://www.instagram.com/p/CAaowPijluZ/"
+        button="Watch Animation"
       />
     </div>
   );

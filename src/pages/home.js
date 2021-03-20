@@ -7,7 +7,7 @@ import SideProject from "../components/projects/sideproject";
 
 const Home = () => {
   return (
-    <div className="App">
+    <div className="App fade-in">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Harsh Badhai | Product Designer</title>

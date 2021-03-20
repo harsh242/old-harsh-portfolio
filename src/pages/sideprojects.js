@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Helmet } from "react-helmet";
 
 import Code from "../components/sideprojects/code";
@@ -6,9 +6,9 @@ import Animation from "../components/sideprojects/animation";
 import Filmmaking from "../components/sideprojects/filmmaking";
 
 function SideProjects() {
-  const [openTab, setOpenTab] = React.useState(1);
+  const [openTab, setOpenTab] = useState(1);
   return (
-    <section className="text-gray-700 body-font">
+    <section className="text-gray-700 body-font fade-in">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Side Projects by Harsh</title>
@@ -31,7 +31,7 @@ function SideProjects() {
           >
             <a
               data-toggle="tab"
-              href="#link1"
+              href="#code"
               role="tablist"
               class={
                 "px-4 py-2 rounded-full   " +
@@ -47,7 +47,9 @@ function SideProjects() {
               Code
             </a>
             <a
-              href="/components/buttons"
+              data-toggle="tab"
+              href="#animation"
+              role="tablist"
               class={
                 "px-4 py-2 rounded-full   " +
                 (openTab === 2
@@ -63,7 +65,7 @@ function SideProjects() {
             </a>
             <a
               data-toggle="tab"
-              href="#link3"
+              href="#filmmaking"
               role="tablist"
               class={
                 "px-4 py-2 rounded-full   " +
@@ -81,13 +83,13 @@ function SideProjects() {
           </nav>
         </div>
         <div>
-          <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+          <div className={openTab === 1 ? "block" : "hidden"} id="code">
             <Code />
           </div>
-          <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+          <div className={openTab === 2 ? "block" : "hidden"} id="animation">
             <Animation />
           </div>
-          <div className={openTab === 3 ? "block" : "hidden"} id="link3">
+          <div className={openTab === 3 ? "block" : "hidden"} id="filmmaking">
             <Filmmaking />
           </div>
         </div>

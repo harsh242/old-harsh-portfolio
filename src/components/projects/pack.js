@@ -28,7 +28,7 @@ import p13 from "../../assets/img/pack/13.jpg";
 class Pack extends React.Component {
   render() {
     return (
-      <div id="pack">
+      <div id="pack" className="fade-in">
         <section className="text-gray-700 body-font overflow-hidden">
           <div className="container px-5 pb-10 mx-auto">
             <div className="lg:w-4/5 mx-auto flex flex-wrap">
