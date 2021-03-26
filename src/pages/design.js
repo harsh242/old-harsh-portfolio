@@ -2,6 +2,9 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import Card from "../components/projects/card";
+
+import cryptoverse from "../assets/img/projects/Cryptoverse_Wars.jpg";
+import zeda from "../assets/img/projects/Zeda.jpg";
 import feelgood from "../assets/img/projects/feelgood.jpg";
 import taxibazaar from "../assets/img/projects/taxibazaar.jpg";
 import pack from "../assets/img/projects/pack.jpg";
@@ -33,6 +36,22 @@ function Design() {
             image={pack}
             description="A Solution designed to minimize the crowd at small shops/stores and focuses on a safer and digital way to buy ration and daily goods. We were one of the winners in Interaction Design Domain"
             link="/pack"
+            button="Read Case Study"
+          />
+          <Card
+            category="UI/UX Design"
+            name="Cryptoverse Wars"
+            image={cryptoverse}
+            description="An Interactive Code School which can take you from a Blockchain Noob to Pro"
+            link="/cryptoverse"
+            button="Read Case Study"
+          />
+          <Card
+            category="UI/UX Design"
+            name="Zeda.io"
+            image={zeda}
+            description="Building a Product for Product Managers"
+            link="/zeda"
             button="Read Case Study"
           />
           <Card

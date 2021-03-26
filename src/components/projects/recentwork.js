@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import feelgood from "../../assets/img/projects/feelgood.jpg";
 import pack from "../../assets/img/projects/pack.jpg";
+import cryptoverse from "../../assets/img/projects/Cryptoverse_Wars.jpg";
+import zeda from "../../assets/img/projects/Zeda.jpg";
 
 import Card from "./card";
 
@@ -30,6 +32,22 @@ function RecentWork() {
               image={pack}
               description="A Solution designed to minimize the crowd at small shops/stores and focuses on a safer and digital way to buy ration and daily goods."
               link="/pack"
+              button="Read Case Study"
+            />
+            <Card
+              category="UI/UX Design"
+              name="Cryptoverse Wars"
+              image={cryptoverse}
+              description="An Interactive Code School which can take you from a Blockchain Noob to Pro"
+              link="/cryptoverse"
+              button="Read Case Study"
+            />
+            <Card
+              category="UI/UX Design"
+              name="Zeda.io"
+              image={zeda}
+              description="Building a Product for Product Managers"
+              link="/zeda"
               button="Read Case Study"
             />
             <Card
